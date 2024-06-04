@@ -1,0 +1,46 @@
+.navbar {
+    background-color: $marron-oscuro;
+    padding: 15px 10px;
+    z-index: 4;
+  
+    @media screen and (max-width: 767px) {
+      .navbar-brand {
+        display: none;
+      }
+    }
+  
+    .container {
+      padding-inline: 20px;
+      @include flex (inherit,center,space-between,inherit);
+  
+      .menu {
+        position: fixed;
+        all: unset;
+        justify-content: end;
+  
+        .listaMenu {
+          display: inline-flex;
+          gap: 10px;
+          list-style-type: none;
+          align-items: center;
+  
+          .nav-item a {
+            color: #fff;
+            text-decoration: none;
+          }
+  
+          .nav-link.active {
+            color: $marron-claro;
+          }
+        }
+      }
+  
+      .logo {
+        width: auto;
+      }
+  
+      .carritoCompras {
+        width: 30px;
+      }
+    }
+  }

@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+  color: #201e1e;
+  padding: 20px;
+}
+
+p {
+  color: #201e1e;
+}
+
+h4 {
+  color: white;
+}
+
+span {
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .titulo {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+  }
+}
+h2 {
+  text-align: center;
+  font-size: x-large;
+  color: #201e1e;
+  padding: 20px;
+}
+
+p {
+  color: #201e1e;
+}
+
+footer p {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+section .tituloPromocionales {
+  color: #926c40;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+section .cuotas {
+  color: #dfba86;
+}
+
+.productosPromocionales {
+  display: flex;
+  justify-content: center;
+  padding-inline: 10px;
+  gap: 5px;
+}
+.productosPromocionales .columnaPromocionales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20%;
+  overflow: hidden;
+}
+.productosPromocionales .columnaPromocionales .textoPromocionales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .productosPromocionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productosPromocionales .columnaPromocionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20%;
+    overflow: hidden;
+  }
+  .productosPromocionales .columnaPromocionales .textoPromocionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.divIngrMayorista {
+  margin: 20px;
+}
+@media screen and (max-width: 767px) {
+  .divIngrMayorista h2 {
+    font-size: 20px;
+  }
+  .divIngrMayorista .divIngrMayorista {
+    margin: 20px;
+  }
+}
+
+.divIngresoMayor {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.politica {
+  background-image: linear-gradient(to bottom, #ffcc00, #ff3300);
+  padding: 20px;
+  color: white;
+}
+
+.form-floating {
+  width: 400px;
+}
+@media screen and (max-width: 768px) {
+  .form-floating .divIngresoMayor {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+  }
+  .form-floating .form-floating {
+    width: 80%;
+  }
+}
+
+.productosNuevos {
+  padding: 20px;
+}
+
+.promociones .row div {
+  height: 250px;
+  background-color: purple;
+}
+
+.productosPromocionales div a {
+  display: flex;
+}
+
+.videoPortada {
+  width: 100%;
+  display: block;
+}
+
+span {
+  font-weight: 600;
+}
+
+section .monto {
+  display: flex;
+  flex-direction: column;
+  color: #926c40;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.imagenPortada {
+  width: 100%;
+}
+
+.imgProductos {
+  width: 100%;
+}
+
+.imgPromocionales {
+  width: 100%;
+}
+
+.columnaPromocionales:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+  .columnaPromocionales:hover {
+    transform: none;
+    hover: none;
+  }
+}
+
+.newsletter {
+  text-align: center;
+  color: #493217;
+}
+.newsletter h6 {
+  color: #926c40;
+  font-weight: 300;
+}
+
+.terminosYCondiciones {
+  font-size: 12px;
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.divContenedor {
+  display: flex;
+  flex-direction: row;
+}
+
+.divContenedor2 {
+  margin-left: 15px;
+}
+
+.divContenedor3 {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+hr {
+  border: 1px solid #714a4a;
+}
+
+.divTitulo {
+  margin-bottom: 5px;
+  padding: 0 40px 10px 0;
+  font-weight: 400;
+}
+
+.col1 {
+  height: auto;
+  width: 80px;
+}
+
+.divCarrito h3 {
+  color: #8b5a15;
+  font-size: 15px;
+}
+
+.navbar {
+  background-color: #8b5a15;
+  padding: 15px 10px;
+  z-index: 4;
+}
+@media screen and (max-width: 767px) {
+  .navbar .navbar-brand {
+    display: none;
+  }
+}
+.navbar .container {
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: inherit;
+}
+.navbar .container .menu {
+  position: fixed;
+  all: unset;
+  justify-content: end;
+}
+.navbar .container .menu .listaMenu {
+  display: inline-flex;
+  gap: 10px;
+  list-style-type: none;
+  align-items: center;
+}
+.navbar .container .menu .listaMenu .nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .container .menu .listaMenu .nav-link.active {
+  color: #926c40;
+}
+.navbar .container .logo {
+  width: auto;
+}
+.navbar .container .carritoCompras {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  background-color: #8b5a15;
+  padding: 10px;
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: inherit;
+  margin-top: 20px;
+}
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: inherit;
+  flex-wrap: inherit;
+}
+footer h4 {
+  font-size: 15px;
+}
+footer img {
+  width: 80px;
+}
+footer div i {
+  color: white;
+}
+
+.contacto {
+  text-align: center;
+  margin-right: 200px;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .footerMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    align-content: center;
+  }
+  .contacto {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=etilos.css.map */

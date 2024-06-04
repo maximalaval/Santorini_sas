@@ -1,0 +1,33 @@
+//este es ununicco comentario para sass, no aparece en scss
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+    color: #201e1e;
+    padding: 20px;
+}
+
+p {
+    color: #201e1e;
+}
+
+
+h4 {
+    color: #ffff;
+}
+
+span {
+    font-weight: 600;
+}
