@@ -263,17 +263,25 @@ hr {
   font-size: 15px;
 }
 
-.navbar {
+header .navbar {
   background-color: #8b5a15;
   padding: 15px 10px;
   z-index: 4;
 }
+header .navbar a {
+  color: white;
+  font-weight: 200;
+}
 @media screen and (max-width: 767px) {
-  .navbar .navbar-brand {
+  header .navbar .navbar-brand {
     display: none;
   }
+  header .navbar .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
 }
-.navbar .container {
+header .navbar .container-fluid {
   padding-inline: 20px;
   display: flex;
   flex-direction: inherit;
@@ -281,29 +289,17 @@ hr {
   justify-content: space-between;
   flex-wrap: inherit;
 }
-.navbar .container .menu {
-  position: fixed;
-  all: unset;
-  justify-content: end;
+header .navbar .container-fluid .nav-link.active {
+  color: #422626;
+  font-weight: 500;
 }
-.navbar .container .menu .listaMenu {
-  display: inline-flex;
-  gap: 10px;
-  list-style-type: none;
-  align-items: center;
-}
-.navbar .container .menu .listaMenu .nav-item a {
-  color: #fff;
-  text-decoration: none;
-}
-.navbar .container .menu .listaMenu .nav-link.active {
-  color: #926c40;
-}
-.navbar .container .logo {
+
+.logo {
   width: auto;
 }
-.navbar .container .carritoCompras {
-  width: 30px;
+
+.carritoCompras {
+  width: 300px;
 }
 
 footer {
