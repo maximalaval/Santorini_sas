@@ -1,0 +1,50 @@
+main {
+    .divIngrMayorista {
+        margin: 20px;
+    }
+
+    .divIngresoMayor {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnRegistro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        row-gap: 10px;
+    }
+    .btnRegistrarse{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 6px;
+        background-color: $marron-oscuro;
+        border: 2px solid $marron-oscuro;
+      }
+      
+    div{
+        .btnTodosLosProductos {
+            text-decoration: none;
+            color: $marron-oscuro;
+            font-weight: 600;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: #ffffffcc;
+            border: 2px solid $marron-oscuro;
+          }
+          .btnTodosLosProductos {
+            text-decoration: none;
+            color: $marron-oscuro;
+            font-weight: 600;
+            border-radius: 5px;
+            padding: 6px;
+            background-color: #ffffffcc;
+            border: 2px solid $marron-oscuro;
+          }
+
+    }
+}

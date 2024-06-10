@@ -313,17 +313,6 @@ section .cuotas {
 
 }
 
-
-.politica{
-  background-image: linear-gradient(to bottom, #ffcc00, #ff3300); 
-  padding: 20px; 
-  color: white; 
-}
-
-.form-floating {
-  width: 400px;
-}
-
 @media screen and (max-width:768px) {
   .f.divIngresoMayor{
     margin-left: 10px;
@@ -336,6 +325,19 @@ section .cuotas {
   }
   
 }
+
+
+.politica{
+  background-image: linear-gradient(to bottom, #ffcc00, #ff3300); 
+  padding: 20px; 
+  color: white; 
+}
+
+.form-floating {
+  width: 400px;
+}
+
+
 
 .productosNuevos {
   padding: 20px;
